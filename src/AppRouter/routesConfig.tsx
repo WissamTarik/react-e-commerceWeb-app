@@ -40,11 +40,11 @@ export const routesConfig:RouteObject[]=[
               {
                 index: true,
                 element: (
-                  <ProtectedRoute>
+              
                     <SuspenseHandler message="Home Page">
                       <Home />
                     </SuspenseHandler>
-                  </ProtectedRoute>
+                
                 ),
               },
               {
