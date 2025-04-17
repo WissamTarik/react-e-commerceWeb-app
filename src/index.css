@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark,.dark *));
+nav .active{
+    color: white !important;
+    background-color: #075985;
+}
