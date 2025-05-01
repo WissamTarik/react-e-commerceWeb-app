@@ -52,7 +52,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='bg-sky-300 z-50   mx-auto p-4 dark:text-white  top-0 start-0 end-0'>
+    <nav className='bg-sky-300 z-[999999]   mx-auto p-4 dark:text-white  top-0 start-0 end-0'>
     <div className='flex justify-between items-center container mx-auto'>
         {/* Logo */}
         <Link to={'/'} className=' text-3xl font-bold text-sky-800'>FreshCart</Link>
@@ -84,8 +84,8 @@ const Navbar = () => {
 {/* Mobile Navigation Menu */}
 <div  className={
     nav
-      ? 'fixed md:hidden left-0 top-0 w-[60%] md:shadow-none h-full border-r border-r-sky-500 bg-sky-100 ease-in-out duration-500'
-      : 'ease-in-out w-[60%] duration-500 fixed shadow-lg shadow-sky-200 top-0 bottom-0 left-[-100%]'
+      ? 'fixed md:hidden left-0 top-0 w-[60%] z-[9999] md:shadow-none h-full border-r border-r-sky-500 bg-sky-100 ease-in-out duration-500'
+      : 'ease-in-out w-[60%] duration-500 fixed  shadow-lg shadow-sky-200 top-0 bottom-0 left-[-100%]'
   }>
 
   {/* Mobile Logo */}
